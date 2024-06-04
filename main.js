@@ -12,3 +12,6 @@ if (departm === 7) {
 } else {
     department = departmentStandard;
 }
+let netIncome = salary - (salary * percent) + department;
+console.log(fname + ' your net income is: ' + netIncome);
+alert('Hi ' + fname + ' your net income is ' + netIncome);
